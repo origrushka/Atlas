@@ -10,7 +10,7 @@ html, body {
 
 html {
   font-size: 10px;
-  background-color: #05fadd;
+  background-color: #a9a9a9;
 }
 
 body {
@@ -60,12 +60,12 @@ header {
 }
 
 body > * {
-  background-color: green;
+  background-color: red;
   padding: 1%;
 }
 
 main, header, nav, article, aside, footer, section {
-  background-color: rgba(0,255,0,0.5);
+  background-color: rgba(255,165,0,0.5);
   padding: 1%;
 }
 
@@ -149,20 +149,8 @@ main {
 }
 
 .flex-container {
-  background-color: red;
-  padding: 1%;
+  background-color: rgba(106, 90, 205, 0.5);
+  padding: 2%;
   display: flex;
   flex-wrap: wrap;
-}
-
-.large-title {
-  font-family: 'YourFontName', sans-serif; /* Replace 'YourFontName' with your chosen font */
-  font-size: 36px; /* Adjust the font size as needed */
-  text-align: center; /* Center-align the text */
-  color: #333; /* Change the text color to your preference */
-  }
-
-.small-image {
-   width: 50; /* Adjust the width as needed to make it smaller */
-   height: 50; /* Automatically adjust the height to maintain the aspect ratio */
 }
